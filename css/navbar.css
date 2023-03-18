@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 1rem 0.75rem;
+    background-color: #2C3333;
+}
+
+.logo{
+    font-size: 180%;
+    color: var(--light-paleblue);
+    font-weight: 500;
+}
+
+.menu-items{
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    font-size: 135%;
+    gap: 1.75rem;
+}
+
+.menu-items a{
+    text-decoration: none;
+    color: var(--light-paleblue);
+}
+
+.menu-items a:hover{
+    color: #0E8388;
+    border-bottom: 2px solid var(--light-paleblue) ;
+    padding-bottom: 0.175rem;
+    transition: border-bottom 0.1s linear, color 0.175s ease-out;
+}
