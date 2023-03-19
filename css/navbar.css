@@ -1,14 +1,19 @@
 .navbar{
+    position: fixed;
+    top: 0;
+    color: var(--dark-grass);
     display: flex;
+    height: 10%;
     width: 100%;
-    padding: 1rem 0.75rem;
-    background-color: #2C3333;
+    padding: 1.5rem 0.75rem;
+    background-color: rgba(237, 241, 214, 0.5);
+    backdrop-filter:blur(3px);
 }
 
 .logo{
     font-size: 180%;
-    color: var(--light-paleblue);
     font-weight: 500;
+    font-family: cursive;
 }
 
 .menu-items{
@@ -17,16 +22,22 @@
     list-style: none;
     font-size: 135%;
     gap: 1.75rem;
+    padding-right: 3%;
 }
 
+
+
 .menu-items a{
+    padding: 5% 8%;
+    color: var(--light-pista);
+    background-color: var(--dark-grass);
     text-decoration: none;
-    color: var(--light-paleblue);
+    border-radius: 999px;
+
 }
 
 .menu-items a:hover{
-    color: #0E8388;
-    border-bottom: 2px solid var(--light-paleblue) ;
-    padding-bottom: 0.175rem;
-    transition: border-bottom 0.1s linear, color 0.175s ease-out;
+    background-color: var(--light-pista);
+    color: var(--dark-grass);
+    transition: background-color 0.2s ease, color 0.2s ease;
 }

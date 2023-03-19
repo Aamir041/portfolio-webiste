@@ -9,4 +9,15 @@
 
 :root{
     --light-paleblue: #CBE4DE;
+    --dark-sea:#2E4F4F;
+    --minty: #97DECE;
+    --light-pista: #EDF1D6;
+    --pista: #9DC08B;
+    --ani-grass: #5F8D4E;
+    --dark-grass:#40513B;
+}
+
+
+article{
+    position: relative;
 }
