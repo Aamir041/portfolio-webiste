@@ -1,0 +1,21 @@
+.about{
+    color: var(--light-pista);
+    background-color: var(--dark-grass);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 13%;
+    align-items: center;    
+}
+
+#greet{
+    font-size: 400%;
+    user-select: none;
+}
+
+#intro-line{
+    margin: 1%;
+    font-size: 200%;
+    padding-bottom: 0.5%;
+    border-bottom: 1px solid var(--light-pista);
+}
