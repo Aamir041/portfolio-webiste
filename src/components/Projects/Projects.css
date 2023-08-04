@@ -1,0 +1,19 @@
+.projects{
+    width: 1200px;
+    margin: auto;
+    
+    
+}
+
+.projects h1{
+    color: #f5b921;
+    font-size: 3rem;
+}
+
+.projects-all{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 2rem;
+}

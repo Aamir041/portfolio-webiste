@@ -1,0 +1,36 @@
+.skillcard{
+    display: flex;
+    margin: 5rem 0rem;
+    justify-content: center;
+}
+
+.skillcard--logos{
+    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    align-items: center;
+    gap: 2rem;
+}
+
+.skillcard--card{
+    display: flex;
+    font-size: 1200%;
+    
+}
+
+.skillcard--icon:hover{
+    fill:#f5b921;
+}
+
+.skillcard--card img{
+    background-color: #FFFFFF;
+    width: 12rem;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 100%;
+}
+
+.skillcard--card img:hover{
+    background-color:#f5b921;
+}
+
