@@ -6,30 +6,30 @@ const Projects = () => {
         {
             projectName: "React Expense Tracker",
             img:"src\\assets\\projectsImg\\expense-tracker\\img.png",
-            link:"https://github.com/Aamir041/React-Expense-Tracker",
+            link:"https://github.com/Aamir041/portfolio-webiste/blob/main/src/assets/projectsImg/expense-tracker/img.png?raw=true",
             skills:["JavaScript","HTML","CSS"],
         },
         {
-            projectName: "Recipe Site",
-            img:"src\\assets\\projectsImg\\add-your-recipe\\img.png",
+            projectName: "Add Your Recipe Site",
+            img:"https://github.com/Aamir041/portfolio-webiste/blob/main/src/assets/projectsImg/add-your-recipe/img.png?raw=true",
             link:"https://github.com/Aamir041/add-your-recipe-site",
             skills:["JavaScript","HTML","CSS","json-server"]
         },
         {
             projectName: "Memory Card",
-            img:"src\\assets\\projectsImg\\memory-card-game\\img.png",
+            img:"https://github.com/Aamir041/portfolio-webiste/blob/main/src/assets/projectsImg/memory-card-game/img.png?raw=true",
             link:"https://github.com/Aamir041/memory_game_project_react",
             skills:["JavaScript","HTML","CSS"]
         },
         {
             projectName: "Todo List",
-            img:"src\\assets\\projectsImg\\todo\\img.png",
+            img:"https://github.com/Aamir041/portfolio-webiste/blob/main/src/assets/projectsImg/todo/img.png?raw=true",
             link:"https://github.com/Aamir041/todo-list",
             skills:["JavaScript","HTML","CSS"]
         },
         {
             projectName: "Restaurant",
-            img:"src\\assets\\projectsImg\\restaurant-homepage\\img.png",
+            img:"https://github.com/Aamir041/portfolio-webiste/blob/main/src/assets/projectsImg/restaurant-homepage/img.png?raw=true",
             link:"https://github.com/Aamir041/cool-restaurent-site",
             skills:["HTML","CSS"]
         },
