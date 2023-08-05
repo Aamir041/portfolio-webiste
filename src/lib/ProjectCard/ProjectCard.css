@@ -1,5 +1,5 @@
 .projectCard {
-    width: 25rem;
+    width: 24rem;
     padding: 1rem;
     border: 2px solid #f5b921;
 }
@@ -12,13 +12,14 @@
 
 .projectCard h2{
     text-align: center;
-    font-size: 125%;
+    font-size: 120%;
 }
 
 
 .projectCard img{
-    margin: auto;
-    width: 100%;
+    margin-left:5%;
+    width: 90%;
+    
 }
 
 .projectCard p{

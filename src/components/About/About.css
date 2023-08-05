@@ -9,12 +9,12 @@
 }
 
 .about--info{
-    font-size: 100%;
+    font-size: 90%;
 }
 
 .about--info p{
     color: #B5B5B5;
-    font-size: 131.5%;
+    font-size: 121.5%;
     line-height: 1.6;
     margin: 1.66rem 0rem;
     text-align: justify;
@@ -23,18 +23,18 @@
 .about--myImg{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 25%;
     margin-left: 10%;
 }
 
 .about--myImg img{
-    width: 70%;
+    width: 100%;
     filter: grayscale(100%);
 }
 
 .about h1{
     color: #f5b921;
-    font-size: 350%;
+    font-size: 200%;
 }
 
 .about--myskills{

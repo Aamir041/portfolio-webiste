@@ -19,14 +19,14 @@
 }
 
 .intro1{
-    font-size: 350%;
+    font-size: 200%;
     text-transform: uppercase;
     color: #b5b5b5;
     
 }
 
 .intro2{
-    font-size: 600%;
+    font-size: 500%;
     font-family: 'Times New Roman';
     width: max-content;    
     color: #b5b5b5;
@@ -36,13 +36,13 @@
     max-width: 100%;
 	margin-top: 18%;
 	position: relative;
-	width: 100%;
+	width: 70%;
 }
 
 .hi img{
     /* position: absolute; */
 	top: 10;
 	left: 0;
-	width: 100%;
+	width: 70%;
 	
 }

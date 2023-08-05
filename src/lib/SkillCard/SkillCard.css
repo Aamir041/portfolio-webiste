@@ -14,19 +14,21 @@
 
 .skillcard--card{
     display: flex;
-    font-size: 1200%;
+    font-size: 1000%;
     fill: #B5B5B5;
 }
 
 .skillcard--icon:hover{
     fill:#f5b921;
+    transition: fill 0.3s 
+    ease-in;
 }
 
 .skillcard--card img{
     background-color: #FFFFFF;
-    width: 12rem;
+    width: 10rem;
     margin: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 100%;
 }
 
