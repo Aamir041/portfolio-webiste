@@ -1,0 +1,21 @@
+.footer{
+    /* margin-top: 2rem; */
+    display: flex;
+    /* background-color: red; */
+    font-size: 150%;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 0rem 3rem;
+    padding-bottom: 0;
+}
+
+.footer-sociallinks{
+    font-size: 2.75rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-icon:hover{
+    fill: #f5b921;
+}
+

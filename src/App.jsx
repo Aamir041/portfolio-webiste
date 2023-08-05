@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
+import Footer from "./lib/Footer/Footer";
 // import Home from "./components/Home/Home";
 import Navbar from "./lib/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -11,7 +12,7 @@ const App = () => {
   return <BrowserRouter>
   <div className="app">
       <Navbar />
-      <div className="app-margin" style={{margin:"10rem"}}></div>
+      <div className="app-margin" style={{margin:"7rem"}}></div>
   </div>
   <Routes>
     <Route path="/" element={<Home/>} />
@@ -20,8 +21,7 @@ const App = () => {
     <Route path="/contact" element={<Contact/>}/>
     
   </Routes>
-
-    
+  <Footer/>
   </BrowserRouter>
 }
 

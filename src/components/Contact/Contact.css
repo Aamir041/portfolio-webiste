@@ -1,0 +1,84 @@
+.contact{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-form{
+    width: 50%;
+}
+
+
+.contact-feild{
+    font-size: 150%;
+    margin: 2rem 0rem;
+}
+
+.contact-feild input{
+    width: 100%;
+    font-size: 100%;
+    background-color: #171717;
+    border: none;
+    outline: none;
+    padding: 1rem 0rem;
+    border-bottom: 2px solid #454545;
+}
+
+.contact-feild textarea{
+    width: 100%;
+    border: none;
+    font-size: 100%;
+    outline: none;
+    padding: 1rem 0rem;
+    background-color: #171717;
+    border-bottom: 2px solid #454545;
+
+}
+
+.contact-send-bttn{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-send-bttn button{
+    padding: 0.5rem 2rem;
+    background-color: #f5b921;
+    font-size: 150%;
+    color: #171717;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contact-social-links{
+    margin-left: 5%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-social-links-lvl{
+    width: max-content;
+    display: flex;
+    margin: 0rem auto;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contact-logo-container{
+    border-radius: 300%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-logo-container:hover{
+    background-color: #f5b921;
+}
+
+.contact-logo{
+    font-size: 370%;
+}

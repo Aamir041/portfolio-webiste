@@ -56,7 +56,7 @@ const Navbar = () => {
                             className="nav-links"
                             onClick={handleClick}
                         >
-                            Contact Us
+                            Contact
                         </NavLink>
                     </li>
                 </ul>

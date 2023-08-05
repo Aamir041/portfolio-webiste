@@ -7,11 +7,11 @@
 
 .projects h1{
     color: #f5b921;
-    font-size: 3rem;
+    font-size: 155%;
 }
 
 .projects-all{
-    margin-top: 5rem;
+    margin: 2rem 0rem;
     display: grid;
     grid-template-columns: 1fr auto auto;
     align-items: center;

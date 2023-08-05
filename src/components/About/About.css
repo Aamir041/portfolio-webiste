@@ -9,10 +9,11 @@
 }
 
 .about--info{
-    font-size: 1.2rem;
+    font-size: 100%;
 }
 
 .about--info p{
+    color: #B5B5B5;
     font-size: 131.5%;
     line-height: 1.6;
     margin: 1.66rem 0rem;
@@ -22,7 +23,7 @@
 .about--myImg{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 50%;
     margin-left: 10%;
 }
 

@@ -15,7 +15,7 @@
 .skillcard--card{
     display: flex;
     font-size: 1200%;
-    
+    fill: #B5B5B5;
 }
 
 .skillcard--icon:hover{
