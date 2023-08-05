@@ -5,7 +5,7 @@ const Projects = () => {
     const projects = [
         {
             projectName: "React Expense Tracker",
-            img:"src\\assets\\projectsImg\\expense-tracker\\img.png",
+            img:"https://github.com/Aamir041/portfolio-webiste/blob/main/src/assets/projectsImg/expense-tracker/img.png?raw=true",
             link:"https://github.com/Aamir041/portfolio-webiste/blob/main/src/assets/projectsImg/expense-tracker/img.png?raw=true",
             skills:["JavaScript","HTML","CSS"],
         },
