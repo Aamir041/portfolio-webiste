@@ -1,6 +1,6 @@
 import "./Navbar.css"
 import { useState } from "react";
-// import aamir from "../../assets/aamir.jpg"
+
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const [click, setClick] = useState(false);

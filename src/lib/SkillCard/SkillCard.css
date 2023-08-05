@@ -16,13 +16,31 @@
     display: flex;
     font-size: 1000%;
     fill: #B5B5B5;
+    position: relative;
+    width: max-content;
 }
 
-.skillcard--icon:hover{
-    fill:#f5b921;
-    transition: fill 0.3s 
-    ease-in;
+.skillcard--name{
+    font-size: 1rem;
+    position:absolute;
+    display: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    top: 0;
 }
+
+.skillcard--icon:hover + .skillcard--name{
+    display: block;
+}
+
+.skillcard--icon:hover {
+    /* display: block; */
+    fill:#f5b921;
+    transition: fill 0.3s ease-in;
+}
+
+
 
 .skillcard--card img{
     background-color: #FFFFFF;
@@ -32,7 +50,13 @@
     border-radius: 100%;
 }
 
-.skillcard--card img:hover{
+.skillcard--card img:hover + .skillcard--name{
+    display: block;
+}
+
+.skillcard--card img:hover {
     background-color:#f5b921;
+    display: block;
+    transition: background-color 0.3s ease-in;
 }
 

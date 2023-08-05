@@ -10,18 +10,19 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return <BrowserRouter>
-  <div className="app">
+    <div className="app">
       <Navbar />
-      <div className="app-margin" style={{margin:"7rem"}}></div>
-  </div>
-  <Routes>
-    <Route path="/" element={<Home/>} />
-    <Route path="/about" element={<About/>} />
-    <Route path="/projects" element={<Projects/>} />
-    <Route path="/contact" element={<Contact/>}/>
-    
-  </Routes>
-  <Footer/>
+      <div className="app-margin" style={{ margin: "2rem" }}></div>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+
+      </Routes>
+      <Footer />
+    </div>
   </BrowserRouter>
 }
 
