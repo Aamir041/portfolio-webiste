@@ -42,7 +42,7 @@ const Projects = () => {
         },
         {
             projectName: "Nerd CMS",
-            img:null,
+            img:"https://github.com/Aamir041/portfolio-webiste/blob/main/src/assets/projectsImg/nerd-cms/img.png?raw=true",
             link:"https://github.com/Aamir041/Nerd-CMS",
             skills:["Linux","Docker","YAML"]
         },
