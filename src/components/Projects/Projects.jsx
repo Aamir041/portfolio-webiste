@@ -1,5 +1,6 @@
 import ProjectCard from "../../lib/ProjectCard/ProjectCard"
 import "./Projects.css"
+
 const Projects = () => {
     
     const projects = [
@@ -37,6 +38,12 @@ const Projects = () => {
             projectName: "Hosted A Php Website On Docker",
             img:null,
             link:"https://github.com/Aamir041/DevOps-BootCamp",
+            skills:["Linux","Docker","YAML"]
+        },
+        {
+            projectName: "Nerd CMS",
+            img:null,
+            link:"https://github.com/Aamir041/Nerd-CMS",
             skills:["Linux","Docker","YAML"]
         },
     ]

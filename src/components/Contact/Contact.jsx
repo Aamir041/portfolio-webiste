@@ -27,49 +27,25 @@ const Contact = () => {
             return;
         }
 
-        alert("Working on Backend :)");
+        alert("Backend Connection Soon!")
+        
+        // const url = "http://localhost/contact/addcontact.php"
 
-        /*
-        const url = "http://localhost/test/formsubmit.php"
+        // let fData = new FormData();
+        // fData.append('name',name);
+        // fData.append('email',email);
+        // fData.append('message',message);
         
-        // putting data in form
-        let fData = new FormData();
-        fData.append('name',name);
-        fData.append('email',email);
-        fData.append('message',message);
+        // axios.post(url,fData)
+        // .then(respose => console.log(respose.data))
+        // .then(() => console.log("Hogaya"))
+        // .catch(error => console.log(error));
         
-        axios.post(url,fData)
-        .then(respose => console.log(respose.data))
-        .catch(error => console.log(error));
-        */
 
     }
 
     return (
         <div className="contact">
-
-            <form className="contact-form">
-                <div className="contact-feild">
-                    <p>What's your name ?</p>
-                    <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Jhone Doe" />
-                </div>
-                <div className="contact-feild">
-                    <p>Where can I react you ?</p>
-                    <input onChange={(e) => setEmail(e.target.value)} type="email" placeholder="jhondoe@xyz.com" />
-                </div>
-                <div className="contact-feild">
-                    <p>What's your message ?</p>
-                    <textarea onChange={(e) => setMessage(e.target.value)} name="" id="" cols="30" rows="7" placeholder="Hi Aamir. let's work!" ></textarea>
-                </div>
-
-                <div className="contact-send-bttn">
-                    <button type="submit" onClick={handleForm}>
-                        Send it
-                    </button>
-                </div>
-
-
-            </form>
 
             <div className="contact-social-links">
 
@@ -98,6 +74,29 @@ const Contact = () => {
                 </div>
 
             </div>
+
+            <form className="contact-form">
+                <div className="contact-feild">
+                    <p>What's your name ?</p>
+                    <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Jhone Doe" />
+                </div>
+                <div className="contact-feild">
+                    <p>Where can I react you ?</p>
+                    <input onChange={(e) => setEmail(e.target.value)} type="email" placeholder="jhondoe@xyz.com" />
+                </div>
+                <div className="contact-feild">
+                    <p>What's your message ?</p>
+                    <textarea onChange={(e) => setMessage(e.target.value)} name="" id="" cols="30" rows="7" placeholder="Hi Aamir. let's work!" ></textarea>
+                </div>
+
+                <div className="contact-send-bttn">
+                    <button type="submit" onClick={handleForm}>
+                        Send it
+                    </button>
+                </div>
+
+
+            </form>
 
         </div>
     )
