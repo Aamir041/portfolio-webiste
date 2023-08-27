@@ -1,16 +1,20 @@
 .footer{
-    /* margin-top: 2rem; */
     display: flex;
-    /* background-color: red; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     font-size: 100%;
     justify-content: space-between;
     align-items:flex-end;
-    padding: 0rem 3rem;
-    padding-bottom: 0;
+    padding: 0.75rem 1.25rem;
+    margin-top: 2rem;
+    align-items: center;
+    background-color:#171717 ;
+    
 }
 
 .footer-sociallinks{
-    font-size: 120%;
+    font-size: 150%;
     display: flex;
     gap: 1rem;
 }
