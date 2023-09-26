@@ -3,8 +3,6 @@ import "./Contact.css"
 
 import { BiLogoGithub, BiLogoLinkedin, BiLogoTwitter } from "react-icons/bi"
 
-import axios from "axios"
-
 const Contact = () => {
 
     const [name,setName] = useState("");
@@ -49,7 +47,7 @@ const Contact = () => {
 
             <div className="contact-social-links">
 
-                <h1 style={{ marginBottom: "1rem" }}>Connect With Me On</h1>
+                <h1 style={{ marginBottom: "1rem", fontSize: "160%" }}>Connect With Me On</h1>
 
                 <div className="contact-social-links-lvl">
                     <div className="contact-logo-container">

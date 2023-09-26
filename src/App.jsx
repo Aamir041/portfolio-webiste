@@ -12,7 +12,6 @@ const App = () => {
   return <BrowserRouter>
     <div className="app">
       <Navbar />
-      <div className="app-margin" style={{ margin: "2rem" }}></div>
 
       <Routes>
         <Route path="/" element={<Home />} />

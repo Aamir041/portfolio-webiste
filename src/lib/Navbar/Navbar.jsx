@@ -10,8 +10,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="nav-container">
                 <NavLink exact to="/" className="nav-logo">
-                    AS
-                    <i className="fas fa-code"></i>
+                    {"< AS />"}
                 </NavLink>
 
                 <ul className={click ? "nav-menu active" : "nav-menu"}>

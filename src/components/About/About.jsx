@@ -13,18 +13,11 @@ const About = () => {
                     <h1>Who Am I ?</h1>
                     <p>
                         Hello everyone, I am Aamir a web developer who loves to create and beautify websites.
-                    </p>
-                    <p>
                         Currently I am in my Final Year at MIT ADT University
-                    </p>
-                    <p>
-                        Currenty I am Learning MERN stack and PHP. 
-                    </p>
-                    <p>
-                    I am Interested in Open Source and Devops.
-                    </p>
-                    <p>
+                        Currenty I am Learning MERN stack and Blockchain.
+                        I am Interested in Open Source and Devops.
                         Ask me anything about DSA and Javascript
+
                     </p>
                 </div>
 

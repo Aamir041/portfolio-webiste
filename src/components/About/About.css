@@ -1,30 +1,33 @@
 .about{
     /* display: flex; */
-    max-width: 1200px;
-    margin: auto;
+    max-width: 100%;
+    margin: 0 2rem;
+
 }
 
 .about--intro{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* margin: 0rem 2rem; */
+    /* gap: 5rem; */
 }
 
 .about--info{
-    font-size: 90%;
+    font-size: 120;
+    width: 70%;
 }
 
 .about--info p{
-    color: #B5B5B5;
     font-size: 121.5%;
     line-height: 1.6;
-    margin: 1.66rem 0rem;
     text-align: justify;
 }
 
 .about--myImg{
     display: flex;
     align-items: center;
-    width: 25%;
-    margin-left: 10%;
+    width: 20%;
 }
 
 .about--myImg img{
@@ -39,4 +42,21 @@
 
 .about--myskills{
     margin-top: 5rem;
+    text-align: center;
+    
+}
+
+.about--myskills h1{
+    font-size: 350%;
+}
+
+@media (max-width: 800px) {
+    .about--intro {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about--myImg{
+        width: 50%;
+        margin-top: 2rem;
+    }
 }

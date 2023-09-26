@@ -7,7 +7,10 @@
     position:sticky;
     top: 0;
     z-index: 20;
-    background-color: #171717;
+    background-color: hsla(0, 0%, 9%, 0.500);
+    backdrop-filter: blur(3px);
+    margin-bottom: 1rem;
+    
 }
 .nav-container {
     display: flex;
