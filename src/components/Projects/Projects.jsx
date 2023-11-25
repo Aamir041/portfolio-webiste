@@ -6,10 +6,17 @@ import memoryCardGameImg from "../../assets/projectsImg/memory-card-game/img.png
 import todoImg from "../../assets/projectsImg/todo/img.png";
 import restaurantImg from "../../assets/projectsImg/restaurant-homepage/img.png";
 import cmsImg from "../../assets/projectsImg/nerd-cms/img.png"
+import spotifyImg from "../../assets/projectsImg/spotify-clone/img.png"
 
 const Projects = () => {
     
     const projects = [
+        {
+            projectName: "Spotify Clone",
+            img:spotifyImg,
+            link:"https://github.com/Aamir041/spotify-clone",
+            skills:["ReactJS","ExpressJS","Passport","Json Web Token"]
+        },
         {
             projectName: "React Expense Tracker",
             img:exprenseTrackerImg,
@@ -51,7 +58,7 @@ const Projects = () => {
             img:cmsImg,
             link:"https://github.com/Aamir041/Nerd-CMS",
             skills:["Linux","Docker","YAML"]
-        },
+        }
     ]
 
     return (
