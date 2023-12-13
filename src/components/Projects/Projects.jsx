@@ -42,21 +42,9 @@ const Projects = () => {
             skills:["JavaScript","HTML","CSS"]
         },
         {
-            projectName: "Restaurant",
-            img:restaurantImg,
-            link:"https://github.com/Aamir041/cool-restaurent-site",
-            skills:["HTML","CSS"]
-        },
-        {
             projectName: "Hosted A Php Website On Docker",
             img:null,
             link:"https://github.com/Aamir041/DevOps-BootCamp",
-            skills:["Linux","Docker","YAML"]
-        },
-        {
-            projectName: "Nerd CMS",
-            img:cmsImg,
-            link:"https://github.com/Aamir041/Nerd-CMS",
             skills:["Linux","Docker","YAML"]
         }
     ]
