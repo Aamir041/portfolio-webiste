@@ -1,23 +1,23 @@
-.contact{
+.contact {
     display: flex;
     max-width: 100%;
     margin: 0 3rem;
     justify-content: space-between;
 }
 
-.contact-form{
+.contact-form {
     width: 45%;
 }
 
 
-.contact-feild{
-    font-size: 130%;
+.contact-feild {
+    font-size: 1rem;
     margin: 2rem 0rem;
 }
 
-.contact-feild input{
+.contact-feild input {
     width: 100%;
-    font-size: 100%;
+    font-size: 1.2rem;
     background-color: #171717;
     border: none;
     outline: none;
@@ -26,25 +26,32 @@
     border-bottom: 2px solid #454545;
 }
 
-.contact-feild textarea{
+.contact-feild textarea {
     color: #acacac;
     width: 100%;
     border: none;
-    font-size: 100%;
+    font-size: 1.2rem;
     outline: none;
-    padding: 1rem 0rem;
+    padding: 0.5rem 0rem;
     background-color: #171717;
     border-bottom: 2px solid #454545;
 
 }
 
-.contact-send-bttn{
+/* .contact-send-bttn {
     width: max-content;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
+    border: solid 4px #7d5d0c;
+    border-radius: 26px;
 }
 
-.contact-send-bttn button{
+.contact-send-bttn:hover {
+    border: solid 4px #f5b921;
+}
+
+.contact-send-bttn button {
     padding: 0.5rem 2rem;
     background-color: #f5b921;
     font-size: 130%;
@@ -55,7 +62,12 @@
     cursor: pointer;
 }
 
-.contact-social-links{
+.contact-send-bttn button:hover {
+    background-color: #7d5d0c;
+    color: white;
+} */
+
+.contact-social-links {
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -65,7 +77,7 @@
     /* background-color: red; */
 }
 
-.contact-social-links-lvl{
+.contact-social-links-lvl {
     width: 100%;
     display: flex;
     /* margin: 0rem auto; */
@@ -75,28 +87,56 @@
     gap: 5rem;
 }
 
-.contact-logo-container{
+.contact-logo-container {
     border-radius: 300%;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
-.contact-logo-container:hover{
+.contact-logo-container:hover {
     background-color: #f5b921;
 }
 
-.contact-logo{
+.contact-logo {
     font-size: 370%;
+}
+
+.pushable {
+    background: rgb(231, 170, 18);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(43,91.4%,54.5%);
+    color: white;
+    transform: translateY(-6px);
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
 }
 
 @media (max-width: 800px) {
     .contact {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
+
     .contact-form {
         width: 100%;
     }
-    .contact-social-links{
-        width: 100%;
+
+    .contact-social-links {
+        display: none;
     }
 }

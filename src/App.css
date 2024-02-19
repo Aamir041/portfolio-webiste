@@ -1,4 +1,15 @@
 .app{
     width: 100%;
+    display: flex;
+    flex-direction: column;
     height: 100%;
+}
+
+.app-upper-container{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.app-upper-container::-webkit-scrollbar{
+    display: none;
 }

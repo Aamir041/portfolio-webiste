@@ -1,8 +1,7 @@
 .projects{
-    width: 1200px;
+    width: 100%;
     margin: auto;
-    
-    
+    padding: 0rem 3rem;
 }
 
 .projects h1{
@@ -11,9 +10,12 @@
 }
 
 .projects-all{
+    width: 100%;
     margin: 2rem 0rem;
-    display: grid;
-    grid-template-columns: 1fr auto auto;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
+    /* background-color: red; */
 }

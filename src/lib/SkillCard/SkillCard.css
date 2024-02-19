@@ -1,37 +1,22 @@
 .skillcard{
     display: flex;
-    margin: 5rem 0rem;
+    margin: 2rem 0rem;
     justify-content: center;
 }
 
 .skillcard--logos{
     /* display: inline-block; */
     display: grid;
-    grid-template-columns: 1fr auto auto auto;
+    grid-template-columns: 1fr auto auto auto auto;
     align-items: center;
     gap: 2rem;
 }
 
 .skillcard--card{
     display: flex;
-    font-size: 1000%;
+    font-size: 750%;
     fill: #B5B5B5;
-    position: relative;
     width: max-content;
-}
-
-.skillcard--name{
-    font-size: 1rem;
-    position:absolute;
-    display: none;
-    color: white;
-    font-weight: bold;
-    border-radius: 25px;
-    top: 0;
-}
-
-.skillcard--icon:hover + .skillcard--name{
-    display: block;
 }
 
 .skillcard--icon:hover {
@@ -40,11 +25,9 @@
     transition: fill 0.3s ease-in;
 }
 
-
-
 .skillcard--card img{
     background-color: #FFFFFF;
-    width: 10rem;
+    width: 7rem;
     margin: 1rem;
     padding: 1rem;
     border-radius: 100%;
@@ -60,3 +43,12 @@
     transition: background-color 0.3s ease-in;
 }
 
+@media (max-width: 800px) {
+    .skillcard--logos{
+        /* display: inline-block; */
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 2rem;
+    }
+}

@@ -27,18 +27,17 @@ const Contact = () => {
 
         alert("Backend Connection Soon!")
         
-        // const url = "http://localhost/contact/addcontact.php"
-
-        // let fData = new FormData();
-        // fData.append('name',name);
-        // fData.append('email',email);
-        // fData.append('message',message);
-        
-        // axios.post(url,fData)
-        // .then(respose => console.log(respose.data))
-        // .then(() => console.log("Hogaya"))
-        // .catch(error => console.log(error));
-        
+        /**
+         * const url = "http://localhost/contact/addcontact.php"
+         * let fData = new FormData();
+         * fData.append('name',name);
+         * fData.append('email',email);
+         * fData.append('message',message);
+         * axios.post(url,fData)
+         * .then(respose => console.log(respose.data))
+         * .then(() => console.log("Hogaya"))
+         * .catch(error => console.log(error));
+         */
 
     }
 
@@ -79,7 +78,7 @@ const Contact = () => {
                     <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Jhone Doe" />
                 </div>
                 <div className="contact-feild">
-                    <p>Where can I react you ?</p>
+                    <p>Where can I reach you ?</p>
                     <input onChange={(e) => setEmail(e.target.value)} type="email" placeholder="jhondoe@xyz.com" />
                 </div>
                 <div className="contact-feild">
@@ -87,8 +86,8 @@ const Contact = () => {
                     <textarea onChange={(e) => setMessage(e.target.value)} name="" id="" cols="30" rows="7" placeholder="Hi Aamir. let's work!" ></textarea>
                 </div>
 
-                <div className="contact-send-bttn">
-                    <button type="submit" onClick={handleForm}>
+                <div className="pushable">
+                    <button className="front" type="submit" onClick={handleForm}>
                         Send it
                     </button>
                 </div>
