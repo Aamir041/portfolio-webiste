@@ -18,12 +18,6 @@ const Footer = () =>{
                     {<BiLogoLinkedin
                     className="footer-icon"/>}
                 </a>
-                <a href="https://twitter.com/54ud_"
-                target="_blank"
-                >
-                    {<BiLogoTwitter
-                    className="footer-icon"/>}
-                </a>
             </div>
         </div>
 

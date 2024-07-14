@@ -1,5 +1,7 @@
 import "./App.css";
 import About from "./components/About/About";
+import BlogCard from "./components/BlogCard/BlogCard";
+import Blogs from "./components/Bolgs/Blogs";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
@@ -19,6 +21,8 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/blogs" element={<Blogs/>} />
+            <Route path="/blog/:blogId" element={<BlogCard/>} />
             <Route path="*" element={<Home />} />
           </Routes>
         </div>

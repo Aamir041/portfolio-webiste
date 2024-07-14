@@ -1,0 +1,17 @@
+.blogs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.blog{
+    padding: 1rem 2rem;
+    width: 75%;
+    text-align: center;
+    border: 1px solid #f5b921;
+    cursor: pointer;
+}

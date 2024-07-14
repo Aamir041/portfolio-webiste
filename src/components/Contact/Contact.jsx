@@ -27,18 +27,6 @@ const Contact = () => {
 
         alert("Backend Connection Soon!")
         
-        /**
-         * const url = "http://localhost/contact/addcontact.php"
-         * let fData = new FormData();
-         * fData.append('name',name);
-         * fData.append('email',email);
-         * fData.append('message',message);
-         * axios.post(url,fData)
-         * .then(respose => console.log(respose.data))
-         * .then(() => console.log("Hogaya"))
-         * .catch(error => console.log(error));
-         */
-
     }
 
     return (
@@ -55,21 +43,12 @@ const Contact = () => {
                             {<BiLogoGithub className="contact-logo" />}
                         </a>
                     </div>
-                </div>
-
-                <div className="contact-social-links-lvl2 contact-social-links-lvl">
                     <div className="contact-logo-container">
                         <a href="https://www.linkedin.com/in/aamir-saudagar-31422414a/" target="_blank">{<BiLogoLinkedin className="contact-logo" />}
                         </a>
 
                     </div>
-
-                    <div className="contact-logo-container">
-                        <a href="https://twitter.com/54ud_" target="_blank">{<BiLogoTwitter className="contact-logo" />}
-                        </a>
-                    </div>
                 </div>
-
             </div>
 
             <form className="contact-form">
