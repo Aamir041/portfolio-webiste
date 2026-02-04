@@ -10,27 +10,33 @@ const About = () => {
         <div className="about--info">
           <h1 className="about-question">Who Am I ?</h1>
           <p>
-            Greetings! I'm Aamir, a passionate web developer with a flair for
-            crafting visually appealing and functional websites. Currently
-            navigating the final year of my academic journey at MIT ADT
-            University, I am immersed in the dynamic world of web development.
-            My focus lies in mastering the MERN stack, and I'm also delving into
-            the intricate realm of Blockchain technology.
+            I’m a backend-focused software engineer with hands-on experience
+            building scalable, reliable systems in Java and Spring Boot.
+            Currently working at CDK Global, I enjoy designing clean APIs,
+            improving system performance, and contributing to well-structured
+            microservices used in real-world, production environments.
           </p>
           <p>
-            Currently, I am honing my skills as a backend developer intern at
-            CDK Global, where I actively contribute to innovative projects and
-            gain hands-on experience in the ever-evolving field of technology.
-            My enthusiasm for Open Source and DevOps fuels my desire to stay at
-            the forefront of industry trends and best practices.
+            During my journey from backend intern to associate software
+            engineer, I’ve worked extensively on IAM and SSO systems,
+            collaborated across teams, and handled production-critical issues.
+            I’ve led releases, optimized SQL queries, improved test coverage,
+            and built automation tools that reduced manual effort and data
+            inconsistencies.
           </p>
           <p>
-            Feel free to throw any questions my way regarding Data Structures
-            and Algorithms, as well as anything related to the fascinating world
-            of JavaScript. I am on a continuous journey of growth and
-            exploration, driven by the belief that technology has the power to
-            reshape and enhance the way we experience the digital landscape.
-            Let's connect and explore the possibilities together!
+            Beyond work, I enjoy building full-stack projects that blend backend
+            logic with intuitive user experiences. My projects range from a
+            medical waste classification system using deep learning to a
+            Spotify-like music platform, reflecting my interest in combining
+            system design, data handling, and practical problem-solving.
+          </p>
+          <p>
+            I’m driven by curiosity, continuous learning, and writing code that
+            is both efficient and maintainable. With a strong foundation in data
+            structures, algorithms, and system design, I aim to grow as a
+            backend engineer while contributing to impactful products that solve
+            meaningful problems.
           </p>
         </div>
       </div>

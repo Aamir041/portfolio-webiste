@@ -5,8 +5,6 @@ import { SiSpringboot,SiJunit5,SiPostgresql   } from "react-icons/si";
 
 import dslogo from "../../assets/datastructure.svg"
 
-import algo from "../../assets/algorithm.svg"
-
 import {SiMysql,SiExpress} from "react-icons/si"
 
 const SkillCard = () => {
