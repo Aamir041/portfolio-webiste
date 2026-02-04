@@ -13,7 +13,6 @@
 
 .about--info {
     font-size: 120;
-    width: 70%;
 }
 
 .about--info p {
@@ -22,6 +21,10 @@
     letter-spacing: 1px;
     text-align: left;
     margin-bottom: 0.5rem;
+}
+
+.about-question{
+    margin: 1rem 0rem;
 }
 
 .about--myImg {
