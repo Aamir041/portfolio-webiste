@@ -1,9 +1,6 @@
 import "./About.css";
 
-import myImg from "../../assets/aamir.jpg";
 import SkillCard from "../../lib/SkillCard/SkillCard";
-import LeetcodeStat from "../LeetcodeStat/LeetcodeStat";
-
 const About = () => {
   let arr = [1, 2, 3, 4, 5, 6, 7];
 
@@ -11,7 +8,7 @@ const About = () => {
     <div className="about">
       <div className="about--intro">
         <div className="about--info">
-          <h1>Who Am I ?</h1>
+          <h1 className="about-question">Who Am I ?</h1>
           <p>
             Greetings! I'm Aamir, a passionate web developer with a flair for
             crafting visually appealing and functional websites. Currently
@@ -35,10 +32,6 @@ const About = () => {
             reshape and enhance the way we experience the digital landscape.
             Let's connect and explore the possibilities together!
           </p>
-        </div>
-
-        <div className="about--myImg">
-          <img src={myImg} alt="Aamir Saudagar" />
         </div>
       </div>
 

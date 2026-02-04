@@ -3,9 +3,6 @@ import "./Projects.css";
 import exprenseTrackerImg from "../../assets/projectsImg/expense-tracker/img.png";
 import blogRecipeSiteImg from "../../assets/projectsImg/add-your-recipe/img.png";
 import memoryCardGameImg from "../../assets/projectsImg/memory-card-game/img.png";
-import todoImg from "../../assets/projectsImg/todo/img.png";
-import restaurantImg from "../../assets/projectsImg/restaurant-homepage/img.png";
-import cmsImg from "../../assets/projectsImg/nerd-cms/img.png"
 import spotifyImg from "../../assets/projectsImg/spotify-clone/img.png"
 
 const Projects = () => {
@@ -34,18 +31,6 @@ const Projects = () => {
             img: memoryCardGameImg,
             link:"https://github.com/Aamir041/memory_game_project_react",
             skills:["JavaScript","HTML","CSS"]
-        },
-        {
-            projectName: "Todo List",
-            img:todoImg,
-            link:"https://github.com/Aamir041/todo-list",
-            skills:["JavaScript","HTML","CSS"]
-        },
-        {
-            projectName: "Hosted A Php Website On Docker",
-            img:null,
-            link:"https://github.com/Aamir041/DevOps-BootCamp",
-            skills:["Linux","Docker","YAML"]
         }
     ]
 
