@@ -2,8 +2,6 @@ import "./About.css";
 
 import SkillCard from "../../lib/SkillCard/SkillCard";
 const About = () => {
-  let arr = [1, 2, 3, 4, 5, 6, 7];
-
   return (
     <div className="about">
       <div className="about--intro">
