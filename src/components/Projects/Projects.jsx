@@ -4,6 +4,7 @@ import exprenseTrackerImg from "../../assets/projectsImg/expense-tracker/img.png
 import blogRecipeSiteImg from "../../assets/projectsImg/add-your-recipe/img.png";
 import memoryCardGameImg from "../../assets/projectsImg/memory-card-game/img.png";
 import spotifyImg from "../../assets/projectsImg/spotify-clone/img.png"
+import medicalWasteClassificationImg from "../../assets/projectsImg/medical-waste-classification-system/img.png"
 
 const Projects = () => {
     
@@ -31,7 +32,13 @@ const Projects = () => {
             img: memoryCardGameImg,
             link:"https://github.com/Aamir041/memory_game_project_react",
             skills:["JavaScript","HTML","CSS"]
-        }
+        },
+        {
+            projectName: "Medical Waste Classification System",
+            img: medicalWasteClassificationImg,
+            link:"https://github.com/Aamir041/medical-waste-classification-system",
+            skills:["JavaScript","HTML","CSS"]
+        },
     ]
 
     return (
