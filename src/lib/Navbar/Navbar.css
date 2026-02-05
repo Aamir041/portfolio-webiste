@@ -26,9 +26,8 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 3rem;
-    flex-grow: 1;
     font-size: 250%;
+    white-space: nowrap;
 }
 .nav-menu {
     font-size: 120%;
