@@ -670,3 +670,57 @@ a { text-decoration: none; color: inherit; }
   .hero-stats { gap: 1.5rem; }
   .hero-title--outlined { -webkit-text-stroke-width: 1.5px; }
 }
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-card {
+  padding: 2rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  background: rgba(255,255,255,0.02);
+  transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.experience-role {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.experience-company {
+  opacity: 0.7;
+}
+
+.experience-duration {
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.experience-description {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.experience-achievements {
+  padding-left: 1.2rem;
+}
+
+.experience-achievements li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
