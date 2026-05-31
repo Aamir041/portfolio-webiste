@@ -9,14 +9,14 @@ export function Navigation({ menuOpen, onMenuToggle }: NavigationProps) {
   return (
     <nav className="nav">
       <div className="nav-inner">
-        <div className="nav-logo">
+        <a href="/" className="nav-logo">
           <span className="logo-mark">AS</span>
           <span className="logo-slash">/</span>
           <span className="logo-name">Aamir Saudagar</span>
-        </div>
+        </a>
 
         <div className="nav-links">
-          {navLinks.slice(0, 3).map(({ href, label }) => (
+          {navLinks.slice(0, 5).map(({ href, label }) => (
             <a key={label} href={href}>{label}</a>
           ))}
           <a href="#contact" className="nav-cta">Let&apos;s talk →</a>
